@@ -1,0 +1,10 @@
+# The Live ISO.
+out/*
+
+# ProtonVPN connection files.
+sealed/airootfs/etc/openvpn/client/auth.txt
+sealed/airootfs/etc/openvpn/client/*.ovpn
+sealed/airootfs/etc/openvpn/client/*.conf
+
+# Wifi connection files.
+sealed/airootfs/var/lib/iwd/*

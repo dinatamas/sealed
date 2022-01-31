@@ -1,0 +1,17 @@
+66c66
+< auth-user-pass
+---
+> auth-user-pass /etc/openvpn/client/auth.txt
+69a70,71
+> # Source: https://github.com/jonathanio/update-systemd-resolved
+> # Alternatively: https://github.com/ProtonVPN/scripts
+71,72c73,78
+< up /etc/openvpn/update-resolv-conf
+< down /etc/openvpn/update-resolv-conf
+---
+> setenv PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+> up /etc/openvpn/scripts/update-systemd-resolved
+> up-restart
+> down /etc/openvpn/scripts/update-systemd-resolved
+> down-pre
+> dhcp-option DOMAIN-ROUTE .

@@ -1,0 +1,14 @@
+base
+cage
+firefox
+intel-ucode
+iw
+iwd
+linux
+linux-firmware
+mkinitcpio
+mkinitcpio-archiso
+openvpn
+systemd-resolvconf
+xorg-xwayland
+wpa_supplicant

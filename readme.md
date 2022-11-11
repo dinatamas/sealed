@@ -1,7 +1,7 @@
 Sealed Arch ISO
 ===============
 
-This is my Secure Arch Linux ISO profile.
+This is my secure Arch Linux ISO profile.
 
 ## Features
 

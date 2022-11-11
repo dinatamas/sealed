@@ -1,0 +1,6 @@
+[Match]
+Name=wl*
+
+[Network]
+DHCP=ipv4
+IgnoreCarrierLoss=3s
